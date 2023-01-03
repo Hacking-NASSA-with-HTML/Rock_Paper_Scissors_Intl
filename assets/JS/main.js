@@ -2,33 +2,33 @@
 function mainPageContent() {
     const renderMainPageContent =
         `
-    <header>
-        <h1>Rock Paper Scissors</h1>
-    </header>
+            <header>
+                <h1>Rock Paper Scissors</h1>
+            </header>
 
-    <div class="score--board">
-        <div id="userLabel" class="badge">User</div>
-        <div id="computerLabel" class="badge">Comp</div>
-        <span id="userScore">0</span>:<span id="computerScore">0</span>
-    </div>
+            <div class="score--board">
+                <div id="userLabel" class="badge">User</div>
+                <div id="computerLabel" class="badge">Comp</div>
+                <span id="userScore">0</span>:<span id="computerScore">0</span>
+            </div>
 
-    <div class="results">
-        <p></p>
-    </div>
+            <div class="results">
+                <p></p>
+            </div>
 
-    <div class="choices">
-        <div class="choice" id="Rock">
-            <img src="./assets/img/rock.jpg" alt="">
-        </div>
-        <div class="choice" id="Scissors">
-            <img src="./assets/img/scissors.jpg" alt="">
-        </div>
-        <div class="choice" id="Paper">
-            <img src="./assets/img/paper.jpg" alt="">
-        </div>
-    </div>
+            <div class="choices">
+                <div class="choice" id="Rock">
+                    <img src="./assets/img/rock.jpg" alt="">
+                </div>
+                <div class="choice" id="Scissors">
+                    <img src="./assets/img/scissors.jpg" alt="">
+                </div>
+                <div class="choice" id="Paper">
+                    <img src="./assets/img/paper.jpg" alt="">
+                </div>
+            </div>
 
-    <p id="actionMessage">Move!</p>
+            <p id="actionMessage">Move!</p>
         `
     return renderMainPageContent
 }
