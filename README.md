@@ -1,6 +1,6 @@
 # Rock_Paper_Scissors_Intl
 
-## Rock Paper Scissors Game cover for Russian speaking audiency.
+## JavaScript app Rock Paper Scissors Game.
 
 ### Over amazing tutorial from FreeCodeCamp https://www.youtube.com/watch?v=jaVNP3nIAv0
 ---
