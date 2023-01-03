@@ -109,11 +109,31 @@ header h1 {
 
 
 /*****************************                                          ***********/
-/*****************************        @media (max-width: 768px)         ***********/
+/*****************************        @media (max-width: 767px)         ***********/
 /*****************************                                          ***********/
 /*****************************                                          ***********/
 
-@media (max-width: 768px) {
+@media (max-width: 767px) {
+
+    header {
+        padding: 10px 20px;
+    }
+
+    #userLabel {
+        top: 5px;
+        left: -45px;
+    }
+
+    #computerLabel {
+        top: 5px;
+        right: -55px;
+    }
+
+    .score--board {
+        margin: 5px auto;
+        font-size: calc(40px + (80 - 40) * ((100vw - 300px) / (1600 - 300)));
+        padding: 5px 30px;
+    }
 
     .choice {
         display: block;
