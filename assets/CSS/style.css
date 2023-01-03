@@ -6,7 +6,6 @@
 
 @font-face {
     font-family: "Roboto";
-    /*src: url("/assets/fonts/Roboto/Roboto-Black.ttf");*/
     src: url("../fonts/Roboto/Roboto-Black.ttf");
 }
 
@@ -32,8 +31,6 @@ header {
 
 header h1 {
     color: #ff0000;
-    /* text-align: center; */
-    /* font-size: 50px; */
     font-size: calc(20px + (50 - 20) * ((100vw - 300px) / (1600 - 300)));
 }
 
@@ -42,7 +39,6 @@ header h1 {
     border: 5px solid #fff;
     border-radius: 5px;
     text-align: center;
-    /*width: 500px;*/
     width: 40vw;
     color: #fff;
     background-color: #000;
@@ -55,7 +51,6 @@ header h1 {
 .badge {
     background-color: yellow;
     color: black;
-    /* font-size: 30px; */
     font-size: calc(14px + (30 - 14) * ((100vw - 300px) / (1600 - 300)));
     padding: 5px 10px;
 }
@@ -69,12 +64,11 @@ header h1 {
 #computerLabel {
     position: absolute;
     top: 45px;
-    right: -95px;
+    right: -70px;
 }
 
 .results {
     width: auto;
-    /* height: 50px; */
     height: 10vh;
     font-size: calc(14px + (40 - 14) * ((100vw - 300px) / (1600 - 300)));
     text-align: center;
@@ -107,7 +101,6 @@ header h1 {
 #actionMessage {
     color: #fff;
     text-align: center;
-    /* font-size: 35px; */
     font-size: calc(14px + (30 - 14) * ((100vw - 300px) / (1600 - 300)));
 }
 
@@ -121,7 +114,7 @@ header h1 {
 /*****************************                                          ***********/
 /*****************************                                          ***********/
 
-@media (max-width: 768px)  {
+@media (max-width: 768px) {
 
     .choice {
         display: block;

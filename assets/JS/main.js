@@ -21,7 +21,7 @@ function win(userChoice, computerChoice) {
     computerScoreSpan.innerHTML = computerScore;
     const smallUserWord = 'user'.fontsize(3).sub();
     const smallCompWord = 'comp'.fontsize(3).sup();
-    resultsDiv.innerHTML = `${userChoice} ${smallUserWord} и ${computerChoice} ${smallCompWord}. You won!`;
+    resultsDiv.innerHTML = `${userChoice} ${smallUserWord} and ${computerChoice} ${smallCompWord}. You won!`;
     let mySound = new Audio('assets/JS/mixkit-achievement-bell-600.wav');
     mySound.volume = 0.5;
     mySound.play();
@@ -33,7 +33,7 @@ function lose(userChoice, computerChoice) {
     computerScoreSpan.innerHTML = computerScore;
     const smallUserWord = 'user'.fontsize(3).sub();
     const smallCompWord = 'comp'.fontsize(3).sup();
-    resultsDiv.innerHTML = `${userChoice} ${smallUserWord} и ${computerChoice} ${smallCompWord}. You lose!`;
+    resultsDiv.innerHTML = `${userChoice} ${smallUserWord} and ${computerChoice} ${smallCompWord}. You lose!`;
     let mySound = new Audio('assets/JS/mixkit-retro-arcade-lose-2027.wav');
     mySound.volume = 0.5;
     mySound.play();
