@@ -1,4 +1,4 @@
-# Rock_Paper_Scissors_Intl
+# Rock Paper Scissors Intl
 
 ## JavaScript app Rock Paper Scissors Game.
 
