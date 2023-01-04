@@ -49,6 +49,7 @@ header h1 {
 
 .badge {
     background-color: yellow;
+    border-radius: 3px;
     color: black;
     font-size: calc(14px + (30 - 14) * ((100vw - 300px) / (1600 - 300)));
     padding: 5px 10px;
