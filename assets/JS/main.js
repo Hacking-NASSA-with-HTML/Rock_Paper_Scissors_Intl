@@ -86,7 +86,7 @@ function draw(userChoice, computerChoice) {
     computerScoreSpan.innerHTML = computerScore
     const smallUserWord = 'user'.fontsize(3).sub()
     const smallCompWord = 'comp'.fontsize(3).sup()
-    resultsDiv.innerHTML = `${userChoice} ${smallUserWord} and ${computerChoice} ${smallCompWord}.draw!`
+    resultsDiv.innerHTML = `${userChoice} ${smallUserWord} and ${computerChoice} ${smallCompWord}. Draw!`
     let mySound = new Audio('assets/JS/mixkit-unlock-game-notification-253.wav')
     mySound.volume = 0.5
     mySound.play()
