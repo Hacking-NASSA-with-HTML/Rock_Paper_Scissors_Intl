@@ -11,7 +11,8 @@ See the project on [Github Pages](https://hacking-nassa-with-html.github.io/Rock
 
 please 🙌 let me know if you have found any issues ⭐
 
-And May Your Code Always Works Too :champagne::clinking_glasses:
+And May Your Code Always Works Too 🍾🥂
+
 
 ![](https://github.com/Hacking-NASSA-with-HTML/Array_iteration_cheatsheet/blob/main/star.gif)
 
