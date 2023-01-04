@@ -2,7 +2,7 @@
 function mainPageContent() {
     const renderMainPageContent =
         `
-            <a href="https://github.com/Hacking-NASSA-with-HTML/animated_rotate_sphere"
+            <a href="https://github.com/Hacking-NASSA-with-HTML/Rock_Paper_Scissors_Intl"
                 target="_blank"><img width="149" height="149"
                 src="./assets/img/forkme_right_green.png"
                 style="position: fixed; top:0; right:0" alt="Fork me on GitHub">
