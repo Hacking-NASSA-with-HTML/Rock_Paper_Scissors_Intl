@@ -65,8 +65,8 @@ function clear() {
 
 function win(userChoice, computerChoice) {
     userScore++
-    userScoreSpan.innerHTML = userScore
-    computerScoreSpan.innerHTML = computerScore
+    userScoreSpan.innerText = userScore
+    computerScoreSpan.innerText = computerScore
     const smallUserWord = 'user'.fontsize(3).sub()
     const smallCompWord = 'comp'.fontsize(3).sup()
     resultsDiv.innerHTML = `${userChoice} ${smallUserWord} and ${computerChoice} ${smallCompWord}. You won!`
@@ -78,8 +78,8 @@ function win(userChoice, computerChoice) {
 
 function lose(userChoice, computerChoice) {
     computerScore++
-    userScoreSpan.innerHTML = userScore
-    computerScoreSpan.innerHTML = computerScore
+    userScoreSpan.innerText = userScore
+    computerScoreSpan.innerText = computerScore
     const smallUserWord = 'user'.fontsize(3).sub()
     const smallCompWord = 'comp'.fontsize(3).sup()
     resultsDiv.innerHTML = `${userChoice} ${smallUserWord} and ${computerChoice} ${smallCompWord}. You lose!`
@@ -90,8 +90,8 @@ function lose(userChoice, computerChoice) {
 }
 
 function draw(userChoice, computerChoice) {
-    userScoreSpan.innerHTML = userScore
-    computerScoreSpan.innerHTML = computerScore
+    userScoreSpan.innerText = userScore
+    computerScoreSpan.innerText = computerScore
     const smallUserWord = 'user'.fontsize(3).sub()
     const smallCompWord = 'comp'.fontsize(3).sup()
     resultsDiv.innerHTML = `${userChoice} ${smallUserWord} and ${computerChoice} ${smallCompWord}. Draw!`
