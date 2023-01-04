@@ -18,7 +18,7 @@ function mainPageContent() {
             </div>
 
             <div class="results">
-                <p></p>
+                <p class="mid-game-results"></p>
             </div>
 
             <div class="choices">
@@ -57,6 +57,12 @@ function getComputerChoice() {
     return choices[randomNumber]
 }
 
+function clear() {
+    setTimeout(() => {
+        resultsDiv.innerHTML = ''
+    }, 4000)
+}
+
 function win(userChoice, computerChoice) {
     userScore++
     userScoreSpan.innerHTML = userScore
@@ -67,6 +73,7 @@ function win(userChoice, computerChoice) {
     let mySound = new Audio('assets/JS/mixkit-achievement-bell-600.wav')
     mySound.volume = 0.5
     mySound.play()
+    clear()
 }
 
 function lose(userChoice, computerChoice) {
@@ -79,6 +86,7 @@ function lose(userChoice, computerChoice) {
     let mySound = new Audio('assets/JS/mixkit-retro-arcade-lose-2027.wav')
     mySound.volume = 0.5
     mySound.play()
+    clear()
 }
 
 function draw(userChoice, computerChoice) {
@@ -90,6 +98,7 @@ function draw(userChoice, computerChoice) {
     let mySound = new Audio('assets/JS/mixkit-unlock-game-notification-253.wav')
     mySound.volume = 0.5
     mySound.play()
+    clear()
 }
 
 function game(userChoice) {
