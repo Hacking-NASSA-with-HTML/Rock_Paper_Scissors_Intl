@@ -116,7 +116,7 @@ header h1 {
 @media (max-width: 767px) {
 
     header {
-        margin-top: 12vh;
+        margin: 8vh 0 4vh 0;
         padding: 10px 20px;
     }
 
