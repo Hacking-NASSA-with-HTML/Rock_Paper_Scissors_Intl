@@ -1,3 +1,5 @@
+![](https://github.com/Hacking-NASSA-with-HTML/Rock_Paper_Scissors_Intl/blob/main/assets/img/FB_open_graph_1200x630_image.jpg)
+
 # Rock Paper Scissors Intl
 
 ## JavaScript app Rock Paper Scissors Game.
