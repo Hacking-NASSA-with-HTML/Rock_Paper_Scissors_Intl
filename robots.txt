@@ -1,0 +1,3 @@
+Sitemap: https://hacking-nassa-with-html.github.io/Rock_Paper_Scissors_Intl/sitemap.xml
+User-agent: *
+Disallow:
